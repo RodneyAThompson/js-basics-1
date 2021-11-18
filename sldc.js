@@ -5,13 +5,13 @@
     Reorganize the following steps of the Software Development Lifecycle to be in their correct order.
 */
 
-// Analysis of Requirements
+// Planning
+// Analysis of requirements
 // Design
 // Implementation
-// Maintain
-// Planning
 // Testing & Integration
-let lifeCycle = ["planning", "analysis of requirements", "design", "testing and integration", "implementation", "maintain"];
+// Maintain
+let lifeCycle = ["planning", "analysis of requirements", "design", "implementation", "testing & integration", "maintain"];
 
 for(let i = 0; i < 6; i++) {
     console.log(lifeCycle[i]) ;

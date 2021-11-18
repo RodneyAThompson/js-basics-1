@@ -18,7 +18,7 @@ var gitDefinition = "Git is a way of easily manuevering through your computer, t
 */
 
 //CODE HERE
-var gitHubDefinition = "Git hub is a website that stores informtion and aloows access to that information to others."
+var gitHubDefinition = "Git hub is a website that stores informtion and allows access to that information to others."
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,8 +34,12 @@ var gitHubDefinition = "Git hub is a website that stores informtion and aloows a
 */
 
 //CODE HERE
-Object('init') = "This command creates an empty git repository"
-
+const init = {
+    name: 'init',
+    description: 'init can be used to create a new file or object.',
+    code: '.init()'
+} 
+console.log(init);
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -43,7 +47,12 @@ Object('init') = "This command creates an empty git repository"
 */
 
 //CODE HERE
-
+const clone = {
+    name: 'clone',
+    description: 'Copying an objects properties to another object',
+    code: 'clone()'
+}
+console.log(clone);
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -51,7 +60,12 @@ Object('init') = "This command creates an empty git repository"
 */
 
 //CODE HERE
-
+const status = {
+    name: 'status' ,
+    description: 'Gives you the ability to modify the status bar.',
+    code: '.status ='
+}
+console.log(status);
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -59,7 +73,12 @@ Object('init') = "This command creates an empty git repository"
 */
 
 //CODE HERE
-
+const add = {
+    name: 'add' ,
+    description: 'Adds a new element with a specific value to the end of an array.',
+    code: 'add()'
+}
+console.log(add);
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -67,7 +86,12 @@ Object('init') = "This command creates an empty git repository"
 */
 
 //CODE HERE
-
+const commit = {
+    name: 'commit' ,
+    description: 'This command saves all staged changes along with a brief description.',
+    code: 'commit -m'
+}
+console.log(commit);
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -76,3 +100,9 @@ Object('init') = "This command creates an empty git repository"
 */
 
 //CODE HERE
+const push = {
+    name: 'push',
+    description: 'This command lets you add one or more elements to the end of an array.',
+    code: '.push'
+}
+console.log(push);
